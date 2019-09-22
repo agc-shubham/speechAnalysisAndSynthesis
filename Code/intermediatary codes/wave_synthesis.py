@@ -1,11 +1,6 @@
 import numpy as np
-from scipy.signal import butter, lfilter, freqz
 from matplotlib import pyplot as plt
-from scipy.io import wavfile
-from scipy.fftpack import fft,fftfreq
-from matplotlib import pyplot as plt
-import math
-import scipy.signal as signal
+
 
 samplerate=44100
 time=0.010
